@@ -1,4 +1,4 @@
-Object.defineProperty(Array.prototype,"length",{
+Object.defineProperty(Array.prototype,"length,{
        get(){
             var step = 0;
          for(count of this)
