@@ -2,7 +2,7 @@
 
 Array.prototype.fill = function ()  {
      var [val,start,end] = [
-         Array[0], arguments[1] ?? 0, arguments[2] ??this.length];
+         arguments[1] ?? 0, arguments[2] ??this.length];
          if(start < 0){
              let r = this.length;
              start = r+= start;
