@@ -7,8 +7,8 @@
         if(fun.call(arg,this[i],i,this)){
            return this[i]
         } 
-       }
-        
+        }
+         
 }
 
 
